@@ -1,0 +1,30 @@
+.navBar-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 20px;
+    background-color: var(--primary-color);
+    padding: 20px 40px;
+}
+
+.navBar-container a {
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    place-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #585834;
+}
+
+.link-title {
+    color: #000;
+    font-size: 24px;
+}
+

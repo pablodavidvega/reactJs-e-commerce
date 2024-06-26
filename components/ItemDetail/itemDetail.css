@@ -1,0 +1,40 @@
+.detail {
+    background-color: var(--secondary-color);
+    width: 100%;
+    margin: 40px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.detail h1 {
+    padding-top: 10px;
+    font-size: 18px;
+    background-color: var(--primary-color);
+    padding: 10px 0;
+}
+
+.detail h2 {
+    font-size: 16px;
+}
+
+.detail img {
+    width: 100px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.detail p {
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 300px;
+}
+
+.detail-price {
+    background-color: var(--primary-color);
+    padding: 5px 0;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+

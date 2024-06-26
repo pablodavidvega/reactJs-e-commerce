@@ -1,0 +1,16 @@
+.orders {
+    text-align: left;
+    background-color: var(--secondary-color);
+    padding: 20px;
+}
+
+.orders a {
+    font-weight: bold;
+}
+
+.order-container {
+    background-color: var(--secondary-color);
+    width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+}

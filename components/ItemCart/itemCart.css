@@ -1,0 +1,32 @@
+.itemCart {
+    width:100%;
+    background-color: var(--primary-color);
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.itemCart img {
+    width: 300px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.itemCart button {
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 25px;
+    padding: 5px 10px;
+    color: #000;
+    max-width: 100px;
+    cursor: pointer;
+    }
+
+.itemCart button:hover {
+    background-color: #000;
+    color: #fff;
+}

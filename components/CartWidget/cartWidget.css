@@ -1,0 +1,24 @@
+.iconCart {
+    font-size: 18px;
+    color: #000;
+}
+
+.cartWidget {
+    position: relative;
+    display: flex;
+}
+
+.counter {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 20px;
+    bottom: 5px;
+}

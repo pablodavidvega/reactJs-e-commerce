@@ -1,0 +1,16 @@
+.cartContainer {
+    background-color: var(--secondary-color);
+    padding: 20px;
+}
+
+.EmptyItemsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorMessage {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
